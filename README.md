@@ -1,12 +1,30 @@
-# 💫 Sobre mim:
-- 🌱 Atualmente tenho concentrado meus estudos em Power BI e SQL.<br>- 👯 Estou em transição de carreira, em busca da minha primeira oportunidade!<br>- 🤔 Estou completamente aberto a novas opiniões e ideias.
+# 🎓 Background:
+- Graduate in **Information Systems**.
+- Passionate about data-driven solutions and pursuing a career as a **Data Analyst**.
+- Enhancing skills in **Python** and **SQL** to unlock the power of data.
 
+---
 
-## 🌐 Redes Sociais:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/kalleu_cr) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kalleu-ribeiro/) 
-# 📊 My Stats:
-![](https://github-readme-stats.vercel.app/api?username=Kalloyer&theme=react&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=Kalloyer&theme=react&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Kalloyer&theme=react&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+## 🛠 Skills
+[![My Skills](https://skillicons.dev/icons?i=py,mysql,postman,grafana,elasticsearch,sentry,excel&theme=dark)](https://skillicons.dev)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+---
+
+<div align="center">
+  <a href="https://instagram.com/kalleu_cr" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Instagram" />
+  </a>
+  <a href="mailto:kalleu156@gmail.com" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Gmail" />
+  </a>
+  <a href="https://www.linkedin.com/in/kalleu-ribeiro" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="LinkedIn" />
+  </a>
+</div>
+
+---
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Kalloyer&hide_title=false&hide=stars,contribs&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=false" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kalloyer&theme=tokyonight&hide_progress=true" height="150" alt="Top Languages" />
+</div>
