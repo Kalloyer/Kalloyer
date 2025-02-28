@@ -35,10 +35,12 @@ This project aims to analyze and predict customer churn (turnover) in a telecomm
 Here’s a quick demo of the dashboards created for this project:
 
 - **Power BI Dashboard:**  
-  ![Power BI Dashboard](file:///C:/Users/Kalleu/Documents/GitHub/An%C3%A1lise%20de%20Churn%20de%20Clientes%20em%20Telecomunica%C3%A7%C3%B5es/Dashboards/BI/Dash_BI.gif)
+  ![Power BI Dashboard](https://github.com/user-attachments/assets/05a05c63-6240-4ca7-855f-39bfe235c740)
+
 
 - **Tableau Dashboard:**  
-  ![Tableau Dashboard](file:///C:/Users/Kalleu/Documents/GitHub/An%C3%A1lise%20de%20Churn%20de%20Clientes%20em%20Telecomunica%C3%A7%C3%B5es/Dashboards/Tableau/Dash_Tableau.gif)
+  ![Tableau Dashboard](https://github.com/user-attachments/assets/af27ed47-13a1-4fd2-95d0-f5f4065faab6)
+
 
 ---
 
