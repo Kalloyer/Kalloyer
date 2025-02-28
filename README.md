@@ -1,7 +1,50 @@
-# 🎓 Background:
-- Graduate in **Information Systems**.
-- Passionate about data-driven solutions and pursuing a career as a **Data Analyst**.
-- Enhancing skills in **Python** and **SQL** to unlock the power of data.
+# 📂 Projects
+
+## **Telecom Customer Churn Analysis**
+This project aims to analyze and predict customer churn (turnover) in a telecommunications company. We used **SQL** for data exploration, **Python** for analysis and predictive modeling, and **Power BI** and **Tableau** for data visualization.
+
+---
+
+### **Key Features**
+- **Data Exploration with SQL:**
+  - Calculated the overall churn rate.
+  - Investigated the relationship between tenure (time as a customer) and churn.
+  - Identified the most used payment methods among churned customers.
+  - Analyzed customers with all services contracted, without internet connection, and those who opted for digital billing.
+
+- **Data Analysis and Predictive Modeling with Python:**
+  - Explored the distribution of churn and monthly charges.
+  - Created a correlation matrix to understand relationships between contract duration, monthly charges, and total charges.
+  - Built a **predictive churn model** and identified the **top 10 most impactful variables** for churn.
+  - Used the article [How to Create a Churn Prediction Model](https://medium.com/neuronio-br/como-criar-um-modelo-para-predi%C3%A7%C3%A3o-de-churn-aa11b9feb8a6) as a reference.
+
+- **Data Visualization with Power BI & Tableau:**
+  - Created an interactive **Power BI dashboard** showing services contracted by gender.
+  - Developed a **Tableau dashboard** with insights on active vs. inactive customers, tenure, payment methods, and billing.
+
+---
+
+### **Technologies Used**
+- **SQL** (Data Exploration)
+- **Python** (Data Analysis and Modeling)
+- **Power BI** and **Tableau** (Data Visualization)
+
+---
+
+### **Project Demo**
+Here’s a quick demo of the dashboards created for this project:
+
+- **Power BI Dashboard:**  
+  ![Power BI Dashboard](file:///C:/Users/Kalleu/Documents/GitHub/An%C3%A1lise%20de%20Churn%20de%20Clientes%20em%20Telecomunica%C3%A7%C3%B5es/Dashboards/BI/Dash_BI.gif)
+
+- **Tableau Dashboard:**  
+  ![Tableau Dashboard](file:///C:/Users/Kalleu/Documents/GitHub/An%C3%A1lise%20de%20Churn%20de%20Clientes%20em%20Telecomunica%C3%A7%C3%B5es/Dashboards/Tableau/Dash_Tableau.gif)
+
+---
+
+### **GitHub Repository**
+Explore the complete project on GitHub:  
+[Telecom Customer Churn Analysis](https://github.com/Kalloyer/analise-churn-telecom)
 
 ---
 
@@ -10,23 +53,7 @@
 
 ---
 
-## 📂 Projects
-
-### 1. **Análise de Churn em Clientes de Telecomunicações**
-Este projeto tem como objetivo analisar e prever o churn (rotatividade) de clientes em uma empresa de telecomunicações. Utilizamos **SQL** para exploração dos dados, **Python** para análise e modelagem preditiva, e **Power BI** e **Tableau** para visualização dos resultados.
-
-**Principais atividades:**
-- Exploração dos dados com SQL.
-- Análise e modelagem preditiva com Python.
-- Criação de dashboards interativos no Power BI e Tableau.
-
-**Tecnologias utilizadas:**
-- SQL, Python, Power BI, Tableau.
-
-**Confira o projeto completo no GitHub:** [Análise de Churn em Telecomunicações](https://github.com/Kalloyer/analise-churn-telecom)
-
----
-### **Contato**
+## 👨‍💻 Contact
 <div align="center">
   <a href="https://www.linkedin.com/in/kalleu-ribeiro" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="LinkedIn" />
@@ -38,15 +65,24 @@ Este projeto tem como objetivo analisar e prever o churn (rotatividade) de clien
 
 ---
 
-### **Sobre Mim**
-Sou um profissional apaixonado por dados, buscando constantemente aprimorar minhas habilidades em análise de dados e visualização. Meu objetivo é transformar dados em insights valiosos que impulsionem decisões estratégicas.
+## 🙌 How to Contribute
+Contributions are welcome! Follow these steps:
+1. Fork the project.
+2. Create a new branch (`git checkout -b feature/new-feature`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature/new-feature`).
+5. Open a Pull Request.
 
 ---
 
-### **Como Contribuir**
-Se você quiser contribuir para este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request. Toda contribuição é bem-vinda!
+## 📌 Next Steps
+- Expand the project with new analyses and predictive models.
+- Add support for real-time data updates.
+- Integrate machine learning models for more accurate predictions.
 
 ---
 
-### **Próximos Passos**
-Estou planejando expandir este projeto com novas análises e modelos preditivos. Fique ligado para mais atualizações!
+## 🔗 Useful Links
+- [Pandas Documentation](https://pandas.pydata.org/docs/)
+- [Tableau Documentation](https://help.tableau.com/current/pro/desktop/en-us/default.htm)
+- [Power BI Documentation](https://learn.microsoft.com/en-us/power-bi/)
