@@ -1,13 +1,21 @@
 <div align="center">
+  <h1>👋 Olá, eu sou o <strong>Kalleu</strong></h1>
+  <p><strong>Data &amp; Analytics | Python | Visualização | Automação</strong></p>
 
-# 👋 Olá, eu sou o **Kalléu Ribeiro**
-**Data & Analytics | Python | Visualização | Automação**
+  <p>
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=py,regex,pycharm,sqlite,git,github,powershell,windows,tableau&theme=dark" alt="Skills" />
+    </a>
+  </p>
 
-[![My Skills](https://skillicons.dev/icons?i=py,regex,pycharm,sqlite,git,github,powershell,windows,tableau,powerbi&theme=dark)](https://skillicons.dev)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kalleu%20Ribeiro-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kalleu-ribeiro/)
-[![Gmail](https://img.shields.io/badge/Email-kalleu156%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kalleu156@gmail.com)
-
+  <p>
+    <a href="https://www.linkedin.com/in/kalleu-ribeiro/">
+      <img src="https://img.shields.io/badge/LinkedIn-Kalleu%20Ribeiro-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn: Kalleu Ribeiro" />
+    </a>
+    <a href="mailto:kalleu156@gmail.com">
+      <img src="https://img.shields.io/badge/Email-kalleu156%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email: kalleu156@gmail.com" />
+    </a>
+  </p>
 </div>
 
 ---
