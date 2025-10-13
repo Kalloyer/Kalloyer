@@ -1,90 +1,65 @@
-# 📂 Projects
-
-## **Telecom Customer Churn Analysis**
-This project aims to analyze and predict customer churn (turnover) in a telecommunications company. We used **SQL** for data exploration, **Python** for analysis and predictive modeling, and **Power BI** and **Tableau** for data visualization.
-
----
-
-### **Key Features**
-- **Data Exploration with SQL:**
-  - Calculated the overall churn rate.
-  - Investigated the relationship between tenure (time as a customer) and churn.
-  - Identified the most used payment methods among churned customers.
-  - Analyzed customers with all services contracted, without internet connection, and those who opted for digital billing.
-
-- **Data Analysis and Predictive Modeling with Python:**
-  - Explored the distribution of churn and monthly charges.
-  - Created a correlation matrix to understand relationships between contract duration, monthly charges, and total charges.
-  - Built a **predictive churn model** and identified the **top 10 most impactful variables** for churn.
-  - Used the article [How to Create a Churn Prediction Model](https://medium.com/neuronio-br/como-criar-um-modelo-para-predi%C3%A7%C3%A3o-de-churn-aa11b9feb8a6) as a reference.
-
-- **Data Visualization with Power BI & Tableau:**
-  - Created an interactive **Power BI dashboard** showing services contracted by gender.
-  - Developed a **Tableau dashboard** with insights on active vs. inactive customers, tenure, payment methods, and billing.
-
----
-
-### **Technologies Used**
-- **SQL** (Data Exploration)
-- **Python** (Data Analysis and Modeling)
-- **Power BI** and **Tableau** (Data Visualization)
-
----
-
-### **Project Demo**
-Here’s a quick demo of the dashboards created for this project:
-
-- **Power BI Dashboard:**  
-  ![Power BI Dashboard](https://github.com/user-attachments/assets/05a05c63-6240-4ca7-855f-39bfe235c740)
-
-
-- **Tableau Dashboard:**  
-  ![Tableau Dashboard](https://github.com/user-attachments/assets/af27ed47-13a1-4fd2-95d0-f5f4065faab6)
-
-
----
-
-### **GitHub Repository**
-Explore the complete project on GitHub:  
-[Telecom Customer Churn Analysis](https://github.com/Kalloyer/analise-churn-telecom)
-
----
-
-## 🛠 Skills
-[![My Skills](https://skillicons.dev/icons?i=py,mysql,postman,grafana,elasticsearch,sentry,excel&theme=dark)](https://skillicons.dev)
-
----
-
-## 👨‍💻 Contact
 <div align="center">
-  <a href="https://www.linkedin.com/in/kalleu-ribeiro" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="LinkedIn" />
-  </a>
-  <a href="mailto:kalleu156@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Gmail" />
-  </a>
+
+# 👋 Olá, eu sou o **Kalléu Ribeiro**
+**Data & Analytics | Python | Visualização | Automação**
+
+[![My Skills](https://skillicons.dev/icons?i=py,regex,pycharm,sqlite,git,github,powershell,windows,tableau,powerbi&theme=dark)](https://skillicons.dev)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kalleu%20Ribeiro-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kalleu-ribeiro/)
+[![Gmail](https://img.shields.io/badge/Email-kalleu156%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kalleu156@gmail.com)
+
 </div>
 
 ---
 
-## 🙌 How to Contribute
-Contributions are welcome! Follow these steps:
-1. Fork the project.
-2. Create a new branch (`git checkout -b feature/new-feature`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature/new-feature`).
-5. Open a Pull Request.
+## 🔥 Projetos em Destaque
 
+### 1) **Classificar Finanças IA** — extratos (conta + cartão) com regras YAML, Streamlit e Excel
+Automatiza a classificação de extratos bancários **localmente**, sem banco de dados, gera **gráficos interativos** e exporta **Excel** pronto.
+
+https://github.com/user-attachments/assets/3df37da1-a156-4834-b2b1-6c165acac57e
+
+**Repositório:** <https://github.com/Kalloyer/Classificar_financas>
+
+**Stack:** Python · Pandas · PyYAML · Typer (CLI) · Streamlit + Plotly · XlsxWriter
+
+**Destaques**
+- Ingestão de **múltiplas faturas** do cartão + extrato único da conta
+- Unificação com `origem` (Conta/Cartão) e `fatura_ref` (mês/ano inferido do nome do arquivo)
+- **Classificação automática** por regras regex em `configs/regras.yml` (sem sobrescrever categoria que já veio no cartão)
+- Dashboard com filtros (**Período, Origem, Categoria**), gráficos **Total por categoria** e **Crédito × Débito**
+- Exportação para Excel com planilhas **Lancamentos**, **Por_Categoria**, **Por_Origem** (formato **R$**)
+
+**Como rodar (Windows 11)**
+```powershell
+git clone https://github.com/Kalloyer/Classificar_financas.git
+cd Classificar_financas
+python -m venv .venv
+.\.venv\Scripts\Activate
+pip install -r requisitos.txt
+
+# Pipeline único (ingesta → unir → classificar → exportar)
+python -m src.app pipeline --pasta-cartao "dados\brutos\cartao" --arquivo-conta "dados\brutos\corrente\extrato.csv"
+
+# Dashboard
+streamlit run src/app_streamlit.py
+```
 ---
 
-## 📌 Next Steps
-- Expand the project with new analyses and predictive models.
-- Add support for real-time data updates.
-- Integrate machine learning models for more accurate predictions.
+### 2) **Telecom Customer Churn Analysis** — SQL, Python, Power BI & Tableau
+Análise e previsão de churn em telecom: exploração com SQL, modelagem em Python e dashboards em BI.
+
+**Power BI Dashboard:**  
+![Power BI Dashboard](https://github.com/user-attachments/assets/05a05c63-6240-4ca7-855f-39bfe235c740)
+
+**Tableau Dashboard:**  
+![Tableau Dashboard](https://github.com/user-attachments/assets/af27ed47-13a1-4fd2-95d0-f5f4065faab6)
+
+**Repositório:** <https://github.com/Kalloyer/Analise_churn_telecom>
+
+**Destaques**
+- Exploração em **SQL**: churn rate, métodos de pagamento, contratos e serviços
+- **Modelagem preditiva** em Python com identificação das variáveis mais impactantes
+- **Dashboards** interativos em Power BI e Tableau
 
 ---
-
-## 🔗 Useful Links
-- [Pandas Documentation](https://pandas.pydata.org/docs/)
-- [Tableau Documentation](https://help.tableau.com/current/pro/desktop/en-us/default.htm)
-- [Power BI Documentation](https://learn.microsoft.com/en-us/power-bi/)
